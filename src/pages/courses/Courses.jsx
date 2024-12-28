@@ -43,7 +43,7 @@ const Courses = () => {
 
         <>
             {
-                coursesData.length > 1 ? <section className="course__container">
+                coursesData.length > 0 ? <section className="course__container">
                     <div className="course__content__header ">
                         <h3>See Our Courses</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, libero?</p>
