@@ -1,0 +1,121 @@
+
+
+.course__container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.course__content__header{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.course__content__header h3{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.course__content__header p{
+    color: #4b5563 ;
+    margin-bottom: 16px;
+}
+
+.course__content{
+    display: grid;
+    grid-template-columns: repeat(1, (0, 1fr));
+    padding: 20px;
+    gap: 16px;
+}
+
+/* .course__content{
+    grid-template-columns: repeat(2, 1fr);
+}
+.course__content{
+    grid-template-columns: repeat(1, 1fr);
+} */
+
+.card__content{
+    background-color: #f9fafb ;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 16px;
+}
+.card__content:hover{
+    background-color: #e6e6e6b0 ;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 250ms;
+    transition-delay: 200ms;
+}
+
+.card__content span{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+}
+.card__content h2{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.card__content p{
+    color:  #4b5563;
+    margin-bottom: 16px;
+}
+
+.card__content h5{
+    color: #111827;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.loading{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-size: larger;
+    line-height: 48px;
+}
+
+.no__data{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.no__data h3{
+    color: black;
+    font-size: 24px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.no__data a{
+    color: rgba(163, 26, 26, 0.719);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.no__data a:hover{
+    color: rgba(255, 0, 0, 0.76);
+}
